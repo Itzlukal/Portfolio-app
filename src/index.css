@@ -81,3 +81,17 @@ font-size: larger;
 font-weight: 600;
 width: full;
 }
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+.experiences-grid{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
