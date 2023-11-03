@@ -11,6 +11,8 @@ background-color: #0a192f;
 
 .home{
     z-index: 0;
+    position: relative;
+    left: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -51,9 +53,11 @@ background-color: #0a192f;
     position: fixed;
     display: flex;
     align-content: center;
+    z-index: 10;
 }
 
 .socials{
+    z-index: 10;
     height: 45px;
     background-color: rgb(159, 51, 4);
     display: flex;
@@ -89,8 +93,8 @@ width: full;
     margin-left: 150px;
 }
 .experiences-grid{
+    margin-top: 100px;
     margin-left: 100px;
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;

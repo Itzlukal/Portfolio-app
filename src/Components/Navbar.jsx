@@ -16,12 +16,12 @@ const Navbar = () => {
     <div className='flex fixed flex-col top-[35%] left-0'>
         <ul>
        <li className='socials' >
-        <a  className='link-to-socials' href='./'>
+        <a  className='link-to-socials' href='https://instagram.com/itzmelukaa?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'>
         Instagram  <BsInstagram size={40}/>
         </a>
         </li>
         <li className='socials' style={{backgroundColor:'#3f4041', paddingLeft:25, }}>
-        <a  className='link-to-socials'  href='./'>
+        <a  className='link-to-socials'  href='https://github.com/Itzlukal'>
         GitHub  <AiFillGithub size={40}/>
         </a>
         </li>

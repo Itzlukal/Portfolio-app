@@ -8,7 +8,7 @@ import react from '../assets/react.png'
 
 const Skills = () => {
   return (
-    <><div name='skills' className='bg-[#0a192f] text-gray-300'>
+    <><div name='skills' className='bg-[#0a192f] text-gray-300 w-full ' >
       <div className='experience-container'>
         <h1 style={{ textDecoration: 'underline', textDecorationColor: 'greenyellow', fontSize: 20, fontWeight: 700, color: " gray ", }}>
           Experience</h1 >
