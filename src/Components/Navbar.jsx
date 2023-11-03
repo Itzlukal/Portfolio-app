@@ -2,15 +2,48 @@ import React from 'react'
 import {BsInstagram} from 'react-icons/bs'
 import {AiFillGithub} from 'react-icons/ai'
 import {CgMail} from 'react-icons/cg'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   return (
     <><div className="navbar">
       <ul className='ul-style'>
-        <li className='nav-buttons'>Home</li>
-        <li className='nav-buttons'>About</li>
-        <li className='nav-buttons'>Skills</li>
-        <li className='nav-buttons'>Contact</li>
+        <li className='nav-buttons'>
+        <Link 
+      to="home" 
+      smooth={true} 
+      duration={500} 
+    >
+      Home
+      </Link>
+          </li>
+        <li className='nav-buttons'>
+        <Link 
+      to="about" 
+      smooth={true} 
+      duration={500} 
+    >
+      About
+      </Link>
+          </li>
+        <li className='nav-buttons'>
+        <Link 
+      to="skills" 
+      smooth={true} 
+      duration={500} 
+    >
+      Skills
+      </Link>
+          </li>
+        <li className='nav-buttons'>
+        <Link 
+      to="contact" 
+      smooth={true} 
+      duration={500} 
+    >
+      contact
+      </Link>
+          </li>
       </ul>
     </div>
     <div className='flex fixed flex-col top-[35%] left-0'>

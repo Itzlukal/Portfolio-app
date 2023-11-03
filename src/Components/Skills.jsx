@@ -8,15 +8,14 @@ import react from '../assets/react.png'
 
 const Skills = () => {
   return (
-    <><div name='skills' className='bg-[#0a192f] text-gray-300 w-full ' >
+    <div name='skills' className='bg-[#0a192f] text-gray-300 w-full ' >
       <div className='experience-container'>
         <h1 style={{ textDecoration: 'underline', textDecorationColor: 'greenyellow', fontSize: 20, fontWeight: 700, color: " gray ", }}>
           Experience</h1 >
         <p style={{ textDecoration: 'underline', textDecorationColor: 'green', fontSize: 10, fontWeight: 500, color: " gray " }}>
            //Those are the things I have worked with</p>
-      </div>
 
-      </div>
+      
 
       <div className='experiences-grid'>
        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}}>
@@ -37,7 +36,8 @@ const Skills = () => {
        </div>
 
       </div>
-      </>
+      </div>
+      </div>
   )
 }
 
