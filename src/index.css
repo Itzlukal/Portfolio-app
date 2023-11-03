@@ -99,3 +99,57 @@ width: full;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
 }
+
+.contact-txt{
+    color: aqua;
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.name-input{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 500px;
+    background-color: rgb(68, 106, 154);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.email-input{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 500px;
+    background-color: rgb(68, 106, 154);
+    border-radius: 5px;
+    padding: 2px;
+}
+.textarea{
+   background-color:  rgb(68, 106, 154);
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   padding: 2px;
+   width: 500px;
+   margin-left: 10px;
+}
+/* .collab-button{
+    background-color:  rgb(98, 98, 97);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 600;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.collab-button:hover{
+    opacity: 0.7;
+} */
+
