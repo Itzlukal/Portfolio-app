@@ -4,7 +4,7 @@ import { BsInstagram } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
 import { CgMail } from 'react-icons/cg'
 import { Link } from 'react-scroll'
-import{FaBars, FaTimes} from 'react-icons/fa'
+import{FaBars, FaTimes, FaLinkedin} from 'react-icons/fa'
 import { useState } from 'react'
 
 const Navbar = () => {
@@ -119,9 +119,9 @@ const Navbar = () => {
               GitHub  <AiFillGithub size={40} />
             </a>
           </li>
-          <li className='socials' style={{ backgroundColor: 'blueviolet', paddingLeft: 50, }}>
-            <a className='link-to-socials' href='./'>
-              Mail  <CgMail size={40} />
+          <li className='socials' style={{ backgroundColor: 'blue', paddingLeft: 15, }}>
+            <a className='link-to-socials' href='https://www.linkedin.com/in/luka-lursmanashvili-46809b2a0/'>
+              Linkedin  <FaLinkedin size={40} />
             </a>
           </li>
         </ul>
