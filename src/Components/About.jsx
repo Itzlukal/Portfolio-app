@@ -13,10 +13,10 @@ const About = () => {
           <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
+            <div className='sm:text-right text-4xl font-bold'  >
               <p>Hi. I'm Luka Lursmanashvili, nice to meet you. Please take a look around.</p>
             </div>
-            <div>
+            <div  >
               <p>As, I mentioned I am 18 years old, passionate about programming, planing on Full Stack developement, also I am
                 student at BTU(business and technology university) learning Finances</p>  
             </div>

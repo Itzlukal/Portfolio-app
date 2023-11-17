@@ -17,20 +17,20 @@ const Skills = () => {
 
       
 
-      <div className='experiences-grid'>
-       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}}>
+      <div className='experiences-grid' data-aos="flip-left">
+       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}} >
        <img src={HTML} />
           <p className='my-4' style={{fontWeight:700, color:'orange'}}> HTML</p>
        </div>
-       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}}>
+       <div  className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '  style={{width:150}} >
        <img src={CSS} />
           <p className='my-4' style={{fontWeight:700, color:'cyan'}}> CSS </p>
        </div>
-       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}}>
+       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}} >
        <img src={javascript} />
           <p className='my-4' style={{fontWeight:700, color:'yellow'}}> Javascript</p>
        </div>
-       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}}>
+       <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' style={{width:150}} >
        <img src={react} />
           <p className='my-4' style={{fontWeight:700, color:'cyan'}}> React.js</p>
        </div>

@@ -1,8 +1,10 @@
 import React from 'react'
 
 const Contact = () => {
+
+
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 mt-[500px]' >
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 mt-[500px]' data-aos="fade-right" >
         <form  action="https://getform.io/f/66e7e3e5-9b9d-4582-8558-579b5d13d69e" method="POST">
             <div>
                 <p className='contact-txt'>
